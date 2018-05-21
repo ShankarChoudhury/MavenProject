@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="1">
+<testcase classname="Orangelogin HRM with set of users" name="Test Orange HRM Login" time="58.452266">
+<system-out><![CDATA[Given A browser is available........................................................passed
+And Login fields are displayed.......................................................passed
+When valid user id & password is entered..................................................passed
+Then User is able to Login.........................................................passed
+When User Management section is clicked...................................................passed
+Then System users must be displayed.....................................................passed
+When add button is clicked.........................................................passed
+Then new user field must be displayed....................................................passed
+When user details are added and saved....................................................passed
+Then System displays the user  save confirmation message..........................................passed
+When User is select & deleted from the system................................................passed
+Then user should not be displayed under User management screen.......................................passed
+Then Logout of the application.......................................................passed
+But Login page should not be displayed...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,33 @@
+Feature: Orangelogin HRM with set of users
+  This feature would test create ,delete user functionality.
+
+  @one
+  Scenario: Test Orange HRM Login                                  [90m# features\BDDtestDatatableSet.feature:4[0m
+    [90mGiven [0m[90mA browser is available[0m                                   [90m# RunDatatableOrangeHRM.setUp()[0m
+[1A    [32mGiven [0m[32mA browser is available[0m                                   [90m# RunDatatableOrangeHRM.setUp()[0m
+    [90mAnd [0m[90mLogin fields are displayed[0m                                 [90m# RunDatatableOrangeHRM.testLoginFields()[0m
+[1A    [32mAnd [0m[32mLogin fields are displayed[0m                                 [90m# RunDatatableOrangeHRM.testLoginFields()[0m
+    [90mWhen [0m[90mvalid user id & password is entered[0m                       [90m# RunDatatableOrangeHRM.enterCredentials(DataTable)[0m
+[1A    [32mWhen [0m[32mvalid user id & password is entered[0m                       [90m# RunDatatableOrangeHRM.enterCredentials(DataTable)[0m
+    [90mThen [0m[90mUser is able to Login[0m                                     [90m# RunDatatableOrangeHRM.testLogin()[0m
+[1A    [32mThen [0m[32mUser is able to Login[0m                                     [90m# RunDatatableOrangeHRM.testLogin()[0m
+    [90mWhen [0m[90mUser Management section is clicked[0m                        [90m# RunDatatableOrangeHRM.User_Management_section_is_clicked()[0m
+[1A    [32mWhen [0m[32mUser Management section is clicked[0m                        [90m# RunDatatableOrangeHRM.User_Management_section_is_clicked()[0m
+    [90mThen [0m[90mSystem users must be displayed[0m                            [90m# RunDatatableOrangeHRM.System_users_must_be_displayed()[0m
+[1A    [32mThen [0m[32mSystem users must be displayed[0m                            [90m# RunDatatableOrangeHRM.System_users_must_be_displayed()[0m
+    [90mWhen [0m[90madd button is clicked[0m                                     [90m# RunDatatableOrangeHRM.add_button_is_clicked()[0m
+[1A    [32mWhen [0m[32madd button is clicked[0m                                     [90m# RunDatatableOrangeHRM.add_button_is_clicked()[0m
+    [90mThen [0m[90mnew user field must be displayed[0m                          [90m# RunDatatableOrangeHRM.new_user_field_must_be_displayed()[0m
+[1A    [32mThen [0m[32mnew user field must be displayed[0m                          [90m# RunDatatableOrangeHRM.new_user_field_must_be_displayed()[0m
+    [90mWhen [0m[90muser details are added and saved[0m                          [90m# RunDatatableOrangeHRM.user_details_are_added_and_saved(DataTable)[0m
+[1A    [32mWhen [0m[32muser details are added and saved[0m                          [90m# RunDatatableOrangeHRM.user_details_are_added_and_saved(DataTable)[0m
+    [90mThen [0m[90mSystem displays the user  save confirmation message[0m       [90m# RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message()[0m
+[1A    [32mThen [0m[32mSystem displays the user  save confirmation message[0m       [90m# RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message()[0m
+    [90mWhen [0m[90mUser is select & deleted from the system[0m                  [90m# RunDatatableOrangeHRM.User_is_select_deleted_from_the_system()[0m
+[1A    [32mWhen [0m[32mUser is select & deleted from the system[0m                  [90m# RunDatatableOrangeHRM.User_is_select_deleted_from_the_system()[0m
+    [90mThen [0m[90muser should not be displayed under User management screen[0m [90m# RunDatatableOrangeHRM.user_should_not_be_displayed_under_User_management_screen()[0m
+[1A    [32mThen [0m[32muser should not be displayed under User management screen[0m [90m# RunDatatableOrangeHRM.user_should_not_be_displayed_under_User_management_screen()[0m
+    [90mThen [0m[90mLogout of the application[0m                                 [90m# RunDatatableOrangeHRM.logOut()[0m
+[1A    [32mThen [0m[32mLogout of the application[0m                                 [90m# RunDatatableOrangeHRM.logOut()[0m
+    [90mBut [0m[90mLogin page should not be displayed[0m                         [90m# RunDatatableOrangeHRM.Login_page_should_nor_be_displayed()[0m
+[1A    [32mBut [0m[32mLogin page should not be displayed[0m                         [90m# RunDatatableOrangeHRM.Login_page_should_nor_be_displayed()[0m

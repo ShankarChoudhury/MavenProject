@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="78" failures="0" name="cucumberMavenPack.TestRunner" time="0.109" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\java-workspace\MavenProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\java-workspace\MavenProject"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\apuchu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\java-workspace\applications\Ant\apache-ant-1.9.6\bin;C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin;C:\java-workspace\applications\Appium\sdk-tools-windows-3859397\platform-tools;C:\java-workspace\applications\Appium\sdk-tools-windows-3859397\tools;C:\Program Files\nodejs;C:\java-workspace\applications\Galen\galen-bin-2.2.3\galen-bin-2.2.3;C:\Program Files\Gauge\bin;C:\Users\apuchu\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\apuchu"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="apuchu"/>
+    <property name="java.class.path" value="C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\java-workspace\applications\Maven\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Given A browser is available" time="0.016"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="And Login fields are displayed" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="When valid user id &amp; password is entered" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then User is able to Login" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="When User Management section is clicked" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then System users must be displayed" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="When add button is clicked" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then new user field must be displayed" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="When user details are added and saved" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then System displays the user  save confirmation message" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="When User is select &amp; deleted from the system" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then user should not be displayed under User management screen" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then Logout of the application" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="But Login page should not be displayed" time="0"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Scenario: Test Orange HRM Login" time="0.078"/>
+  <testcase classname="| TestNG Framework |" name="Given Launch browser" time="0"/>
+  <testcase classname="| TestNG Framework |" name="When browser is launched" time="0"/>
+  <testcase classname="| TestNG Framework |" name="Then Send a &quot;TestNG Framework&quot;" time="0"/>
+  <testcase classname="| TestNG Framework |" name="And close the Browser" time="0"/>
+  <testcase classname="| TestNG Framework |" name="| TestNG Framework |" time="0"/>
+  <testcase classname="| Maven Repository |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Maven Repository |" name="When browser is launched" time="0"/>
+  <testcase classname="| Maven Repository |" name="Then Send a &quot;Maven Repository&quot;" time="0"/>
+  <testcase classname="| Maven Repository |" name="And close the Browser" time="0"/>
+  <testcase classname="| Maven Repository |" name="| Maven Repository |" time="0"/>
+  <testcase classname="| Appium |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Appium |" name="When browser is launched" time="0"/>
+  <testcase classname="| Appium |" name="Then Send a &quot;Appium&quot;" time="0"/>
+  <testcase classname="| Appium |" name="And close the Browser" time="0"/>
+  <testcase classname="| Appium |" name="| Appium |" time="0"/>
+  <testcase classname="| Selendroid |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Selendroid |" name="When browser is launched" time="0"/>
+  <testcase classname="| Selendroid |" name="Then Send a &quot;Selendroid&quot;" time="0"/>
+  <testcase classname="| Selendroid |" name="And close the Browser" time="0"/>
+  <testcase classname="| Selendroid |" name="| Selendroid |" time="0"/>
+  <testcase classname="| Mobile espresso testing |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Mobile espresso testing |" name="When browser is launched" time="0"/>
+  <testcase classname="| Mobile espresso testing |" name="Then Send a &quot;Mobile espresso testing&quot;" time="0"/>
+  <testcase classname="| Mobile espresso testing |" name="And close the Browser" time="0"/>
+  <testcase classname="| Mobile espresso testing |" name="| Mobile espresso testing |" time="0"/>
+  <testcase classname="| Cucumber |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Cucumber |" name="When browser is launched" time="0"/>
+  <testcase classname="| Cucumber |" name="Then Send a &quot;Cucumber&quot;" time="0"/>
+  <testcase classname="| Cucumber |" name="And close the Browser" time="0"/>
+  <testcase classname="| Cucumber |" name="| Cucumber |" time="0"/>
+  <testcase classname="| Serenity |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Serenity |" name="When browser is launched" time="0"/>
+  <testcase classname="| Serenity |" name="Then Send a &quot;Serenity&quot;" time="0"/>
+  <testcase classname="| Serenity |" name="And close the Browser" time="0"/>
+  <testcase classname="| Serenity |" name="| Serenity |" time="0"/>
+  <testcase classname="| Jbehave |" name="Given Launch browser" time="0"/>
+  <testcase classname="| Jbehave |" name="When browser is launched" time="0"/>
+  <testcase classname="| Jbehave |" name="Then Send a &quot;Jbehave&quot;" time="0"/>
+  <testcase classname="| Jbehave |" name="And close the Browser" time="0"/>
+  <testcase classname="| Jbehave |" name="| Jbehave |" time="0"/>
+  <testcase classname="| Database |" name="Given Internet explore browser" time="0"/>
+  <testcase classname="| Database |" name="Given a bulk string is available as below" time="0"/>
+  <testcase classname="| Database |" name="When google is launched" time="0"/>
+  <testcase classname="| Database |" name="And keyword field is available" time="0"/>
+  <testcase classname="| Database |" name="And the browser is maximized" time="0"/>
+  <testcase classname="| Database |" name="Then type a &quot;Database&quot; and hit search" time="0"/>
+  <testcase classname="| Database |" name="Then close the internet explore browser" time="0"/>
+  <testcase classname="| Database |" name="| Database |" time="0"/>
+  <testcase classname="| Entia |" name="Given Internet explore browser" time="0"/>
+  <testcase classname="| Entia |" name="Given a bulk string is available as below" time="0"/>
+  <testcase classname="| Entia |" name="When google is launched" time="0"/>
+  <testcase classname="| Entia |" name="And keyword field is available" time="0"/>
+  <testcase classname="| Entia |" name="And the browser is maximized" time="0"/>
+  <testcase classname="| Entia |" name="Then type a &quot;Entia&quot; and hit search" time="0"/>
+  <testcase classname="| Entia |" name="Then close the internet explore browser" time="0"/>
+  <testcase classname="| Entia |" name="| Entia |" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="Given Internet explore browser" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="Given a bulk string is available as below" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="When google is launched" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="And keyword field is available" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="Then type a &quot;GitHub&quot; and hit search" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="Then close the internet explore browser" time="0"/>
+  <testcase classname="Scenario: Test google search feature with multiple keywords123" name="Scenario: Test google search feature with multiple keywords123" time="0.015"/>
+</testsuite>
