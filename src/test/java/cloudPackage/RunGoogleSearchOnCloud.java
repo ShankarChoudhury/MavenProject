@@ -39,7 +39,7 @@ public class RunGoogleSearchOnCloud {
 		    
 		    //**************************************************//
 		     driver = new RemoteWebDriver(new URL(URL), caps);
-		    //New Comment 
+		    //New Comment added 
 		
 		//driver = new HtmlUnitDriver();
 	}
