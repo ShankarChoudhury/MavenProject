@@ -14,8 +14,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 //pwd browser stack - shankar15
 public class RunGoogleSearchOnCloud {
-	public static final String USERNAME = "";
-	  public static final String AUTOMATE_KEY = "";
+	public static final String USERNAME = "shankarprasadcho1";
+	  public static final String AUTOMATE_KEY = "vazEzBvaudGo1s9r8mth";
 	  public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	WebDriver driver;
 	

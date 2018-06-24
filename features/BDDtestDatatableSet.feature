@@ -2,6 +2,7 @@ Feature: Orangelogin HRM with set of users
 This feature would test create ,delete user functionality.
 @one
   Scenario: Test Orange HRM Login
+  Sample scenario
     Given A browser is available
     And Login fields are displayed
     When valid user id & password is entered

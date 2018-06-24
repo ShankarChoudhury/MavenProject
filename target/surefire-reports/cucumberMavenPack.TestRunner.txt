@@ -1,4 +1,50 @@
 -------------------------------------------------------------------------------
 Test set: cucumberMavenPack.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 78, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 176.271 sec
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 143.367 sec <<< FAILURE!
+Then System displays the user  save confirmation message(Scenario: Test Orange HRM Login)  Time elapsed: 0.015 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Cucumber Tester96'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:11942/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 142aab99-3277-4f88-a37b-833477e2cd73
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at cucumberMavenPack.RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message(RunDatatableOrangeHRM.java:139)
+	at ?.Then System displays the user  save confirmation message(features\BDDtestDatatableSet.feature:16)
+
+Scenario: Test Orange HRM Login  Time elapsed: 0.015 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Cucumber Tester96'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:11942/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 142aab99-3277-4f88-a37b-833477e2cd73
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at cucumberMavenPack.RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message(RunDatatableOrangeHRM.java:139)
+	at ?.Then System displays the user  save confirmation message(features\BDDtestDatatableSet.feature:16)
+

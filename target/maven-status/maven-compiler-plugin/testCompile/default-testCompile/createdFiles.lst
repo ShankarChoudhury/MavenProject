@@ -4,5 +4,6 @@ cucumberMavenPack\Hooks.class
 cucumberMavenPack\TestRunner.class
 cucumberMavenPack\BulkDataRunner.class
 cloudPackage\RunGoogleSearchOnCloud.class
+cucumberMavenPack\TestManifest.class
 cucumberMavenPack\BulkTest.class
 cucumberMavenPack\RunDatatableOrangeHRM.class
