@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="cucumberMavenPack.TestRunner" time="0.192" errors="2" skipped="4">
+<testsuite tests="15" failures="0" name="cucumberMavenPack.TestRunner" time="0.17" errors="2" skipped="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Test Orange HRM Login" name="Given A browser is available" time="0.016"/>
+  <testcase classname="Scenario: Test Orange HRM Login" name="Given A browser is available" time="0"/>
   <testcase classname="Scenario: Test Orange HRM Login" name="And Login fields are displayed" time="0"/>
   <testcase classname="Scenario: Test Orange HRM Login" name="When valid user id &amp; password is entered" time="0"/>
   <testcase classname="Scenario: Test Orange HRM Login" name="Then User is able to Login" time="0"/>
@@ -74,22 +74,22 @@
   <testcase classname="Scenario: Test Orange HRM Login" name="When add button is clicked" time="0"/>
   <testcase classname="Scenario: Test Orange HRM Login" name="Then new user field must be displayed" time="0"/>
   <testcase classname="Scenario: Test Orange HRM Login" name="When user details are added and saved" time="0"/>
-  <testcase classname="Scenario: Test Orange HRM Login" name="Then System displays the user  save confirmation message" time="0.016">
-    <error message="Unable to find element with xpath == //a[text()=&apos;Cucumber Tester96&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then System displays the user  save confirmation message" time="0.015">
+    <error message="Unable to find element with xpath == //a[text()=&apos;Cucumber Tester97&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.26 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
 System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:44956/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Cucumber Tester96&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8516/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 77087d86-7402-45a7-8ccf-9494d39eadb0" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Cucumber Tester97&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.26 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
 System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:44956/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8516/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 77087d86-7402-45a7-8ccf-9494d39eadb0
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -105,22 +105,22 @@ Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed
 	at ✽.Then System displays the user  save confirmation message(features\BDDtestDatatableSet.feature:17)
 </error>
   </testcase>
-  <testcase classname="Scenario: Test Orange HRM Login" name="Scenario: Test Orange HRM Login" time="0.032">
-    <error message="Unable to find element with xpath == //a[text()=&apos;Cucumber Tester96&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
+  <testcase classname="Scenario: Test Orange HRM Login" name="Scenario: Test Orange HRM Login" time="0.031">
+    <error message="Unable to find element with xpath == //a[text()=&apos;Cucumber Tester97&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.26 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
 System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:44956/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Cucumber Tester96&apos;] (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.06 seconds
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8516/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 77087d86-7402-45a7-8ccf-9494d39eadb0" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()=&apos;Cucumber Tester97&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.26 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
 System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:44956/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8516/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 77087d86-7402-45a7-8ccf-9494d39eadb0
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -136,16 +136,16 @@ Session ID: 34e55445-cf4c-48bb-9b07-82b8ead5d0ed
 	at ✽.Then System displays the user  save confirmation message(features\BDDtestDatatableSet.feature:17)
 </error>
   </testcase>
-  <testcase classname="Scenario: Test Orange HRM Login" name="When User is select &amp; deleted from the system" time="0.032">
+  <testcase classname="Scenario: Test Orange HRM Login" name="When User is select &amp; deleted from the system" time="0.031">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Test Orange HRM Login" name="Then user should not be displayed under User management screen" time="0.032">
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then user should not be displayed under User management screen" time="0.031">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Test Orange HRM Login" name="Then Logout of the application" time="0.032">
+  <testcase classname="Scenario: Test Orange HRM Login" name="Then Logout of the application" time="0.031">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Test Orange HRM Login" name="But Login page should not be displayed" time="0.032">
+  <testcase classname="Scenario: Test Orange HRM Login" name="But Login page should not be displayed" time="0.031">
     <skipped/>
   </testcase>
 </testsuite>

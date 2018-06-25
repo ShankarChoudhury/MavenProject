@@ -76,7 +76,7 @@ formatter.step({
     {
       "cells": [
         "rachel test",
-        "Cucumber Tester96"
+        "Cucumber Tester97"
       ],
       "line": 16
     }
@@ -112,71 +112,71 @@ formatter.match({
   "location": "RunDatatableOrangeHRM.setUp()"
 });
 formatter.result({
-  "duration": 5651118889,
+  "duration": 5958845541,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.testLoginFields()"
 });
 formatter.result({
-  "duration": 15694708775,
+  "duration": 974930941,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.enterCredentials(DataTable)"
 });
 formatter.result({
-  "duration": 3482786327,
+  "duration": 7701771659,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.testLogin()"
 });
 formatter.result({
-  "duration": 297731285,
+  "duration": 296061969,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.User_Management_section_is_clicked()"
 });
 formatter.result({
-  "duration": 1758592174,
+  "duration": 18739614614,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.System_users_must_be_displayed()"
 });
 formatter.result({
-  "duration": 170926342,
+  "duration": 154786691,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.add_button_is_clicked()"
 });
 formatter.result({
-  "duration": 1294430776,
+  "duration": 1311875381,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.new_user_field_must_be_displayed()"
 });
 formatter.result({
-  "duration": 31524,
+  "duration": 26392,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.user_details_are_added_and_saved(DataTable)"
 });
 formatter.result({
-  "duration": 3202557565,
+  "duration": 3323927151,
   "status": "passed"
 });
 formatter.match({
   "location": "RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message()"
 });
 formatter.result({
-  "duration": 15014083980,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with xpath \u003d\u003d //a[text()\u003d\u0027Cucumber Tester96\u0027] (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15.02 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.35.0\u0027, revision: \u00278df0c6bedf70ff9f22c647788f9fe9c8d22210e2\u0027, time: \u00272013-08-17 12:46:41\u0027\nSystem info: os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, ie.enableFullPageScreenshot\u003dtrue, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, ie.forceShellWindowsApi\u003dfalse, pageLoadStrategy\u003dnormal, ignoreZoomSetting\u003dfalse, ie.fileUploadDialogTimeout\u003d3000, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dhttp://localhost:45083/, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 4d74ee11-8928-4b7c-88ee-0f6bdbb72bbb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:344)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)\r\n\tat cucumberMavenPack.RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message(RunDatatableOrangeHRM.java:139)\r\n\tat ✽.Then System displays the user  save confirmation message(features\\BDDtestDatatableSet.feature:17)\r\n",
+  "duration": 15260900038,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with xpath \u003d\u003d //a[text()\u003d\u0027Cucumber Tester97\u0027] (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15.26 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.35.0\u0027, revision: \u00278df0c6bedf70ff9f22c647788f9fe9c8d22210e2\u0027, time: \u00272013-08-17 12:46:41\u0027\nSystem info: os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities [{browserAttachTimeout\u003d0, ie.enableFullPageScreenshot\u003dtrue, enablePersistentHover\u003dtrue, ie.forceCreateProcessApi\u003dfalse, ie.forceShellWindowsApi\u003dfalse, pageLoadStrategy\u003dnormal, ignoreZoomSetting\u003dfalse, ie.fileUploadDialogTimeout\u003d3000, version\u003d11, platform\u003dWINDOWS, nativeEvents\u003dtrue, ie.ensureCleanSession\u003dfalse, elementScrollBehavior\u003d0, ie.browserCommandLineSwitches\u003d, requireWindowFocus\u003dfalse, browserName\u003dinternet explorer, initialBrowserUrl\u003dhttp://localhost:8516/, javascriptEnabled\u003dtrue, ignoreProtectedModeSettings\u003dfalse, enableElementCacheCleanup\u003dtrue, unexpectedAlertBehaviour\u003ddismiss}]\nSession ID: 77087d86-7402-45a7-8ccf-9494d39eadb0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:344)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)\r\n\tat cucumberMavenPack.RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message(RunDatatableOrangeHRM.java:139)\r\n\tat ✽.Then System displays the user  save confirmation message(features\\BDDtestDatatableSet.feature:17)\r\n",
   "status": "failed"
 });
 formatter.match({

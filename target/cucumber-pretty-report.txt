@@ -25,14 +25,14 @@ Feature: Orangelogin HRM with set of users
 [1A    [32mWhen [0m[32muser details are added and saved[0m                          [90m# RunDatatableOrangeHRM.user_details_are_added_and_saved(DataTable)[0m
     [90mThen [0m[90mSystem displays the user  save confirmation message[0m       [90m# RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message()[0m
 [1A    [31mThen [0m[31mSystem displays the user  save confirmation message[0m       [90m# RunDatatableOrangeHRM.System_displays_the_user_save_confirmation_message()[0m
-      [31morg.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Cucumber Tester96'] (WARNING: The server did not provide any stacktrace information)
-      Command duration or timeout: 15.02 seconds
+      [31morg.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Cucumber Tester97'] (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 15.26 seconds
       For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
       Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
       System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
       Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-      Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:45083/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
-      Session ID: 4d74ee11-8928-4b7c-88ee-0f6bdbb72bbb
+      Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:8516/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+      Session ID: 77087d86-7402-45a7-8ccf-9494d39eadb0
       	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
       	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
       	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
