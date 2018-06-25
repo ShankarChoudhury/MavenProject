@@ -40,8 +40,8 @@ public class BulkTest {
 	    System.out.println("The browser is maximized and activated");
 	}
 	@Then("^type a \"([^\"]*)\" and hit search$")
-	public void searhHitButton(String arg1) throws Throwable {
-		 System.out.println("A keyword should be sent");
+	public void searhHitButton(String keyword) throws Throwable {
+		 System.out.println("A keyword should be sent"+keyword);
 	  
 	}
 

@@ -13,7 +13,7 @@ This feature would test create ,delete user functionality.
     When add button is clicked
     Then new user field must be displayed
     When user details are added and saved
-      | Hannah Flores | Cucumber Tester96|
+      | rachel test | Cucumber Tester97|
     Then System displays the user  save confirmation message
     When User is select & deleted from the system
     Then user should not be displayed under User management screen
