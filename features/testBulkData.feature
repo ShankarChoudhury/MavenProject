@@ -18,6 +18,8 @@ Feature: Test tags & Bulk data strings
       """
     When google is launched
     And keyword field is available
+    And the data is parametrized
+    |Name|Company|Location|Salary|
     And the browser is maximized
     Then type a "<Keyword>" and hit search
     Then close the internet explore browser

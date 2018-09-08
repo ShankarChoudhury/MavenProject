@@ -1,5 +1,8 @@
 package cucumberMavenPack;
 
+import java.util.List;
+
+import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -48,6 +51,18 @@ public class BulkTest {
 	@Then("^close the internet explore browser$")
 	public void close_the_internet_explore_browser() throws Throwable {
 		 System.out.println("Internet explorer browser should be closed");	   
+	}
+	@When("^the data is parametrized$")
+	public void the_data_is_parametrized(DataTable arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    // For automatic conversion, change DataTable to List<YourType>
+		
+		List<List<String>> data = arg1.raw();
+		System.out.println(data.get(0).get(0));
+		System.out.println(data.get(0).get(1));
+		System.out.println(data.get(0).get(2));
+		System.out.println(data.get(0).get(3));
+
 	}
 
 	

@@ -22,6 +22,7 @@ import cucumber.api.java.en.When;
 public class RunDatatableOrangeHRM {
 	 WebDriver driver;
 	static String  username;
+	int d=9;
 	@Given("^A browser is available$")
 	public void setUp() throws Throwable {
 	    // Express the Regexp above with the code you wish you had
@@ -209,5 +210,8 @@ public class RunDatatableOrangeHRM {
 			System.out.println("User is logged off successfully");
 		}
 		   driver.quit();
+	}
+	public static void demoMethod(){
+		
 	}
 }
