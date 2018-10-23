@@ -8,6 +8,7 @@ This feature would test create ,delete user functionality.
     When valid user id & password is entered
       | Admin | admin |
     Then User is able to Login
+    
     When User Management section is clicked
     Then System users must be displayed
     When add button is clicked

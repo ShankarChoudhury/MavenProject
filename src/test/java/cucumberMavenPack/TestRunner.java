@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 //@RunWith(Cucumber)
 //@RunWith(CucumberWithSerenity.class)
 //@CucumberOptions
-@Cucumber.Options(features={"features/BDDtestDatatableSet.feature"},
-glue="cucumberMavenPack",
+@Cucumber.Options(tags={"@LoginKimai"},features={"features"},
+glue="cloudPackage",
 format={"html:target/cucumber-html-report","pretty:target/cucumber-pretty-report.txt","junit:target/cucumber-results.xml","json:C:\\java-workspace\\MavenProject\\target\\cucumber.json"
 //format={"pretty:target/cucumber-pretty-report.txt"}
 })
